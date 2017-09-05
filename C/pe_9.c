@@ -1,7 +1,7 @@
 // pythagorean triplet such that a^2 + b^2 = c^2 and a+b+c = 1000, what is abc?
 
 #include <stdio.h>
-
+//trivial
 int main ()
 {
   for (int a = 0; a < 998; a++) {

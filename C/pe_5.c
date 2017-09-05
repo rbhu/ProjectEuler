@@ -4,10 +4,10 @@
 
 #include <stdio.h>
 
-
-int evenlyDiv(int num) {
+// check whether evenly divisible
+int evenly_div(int num) {
   for (int i = 1; i <= 20; i++) {
-    if (num%i) return 0;
+    if (num%i) return 0; // not evenly divisible
   }
   return 1;
 }
@@ -16,7 +16,7 @@ int main (int argc, char argv[]) {
   int num = 20;
   int found = 0;
   while (!found) {
-    if (evenlyDiv(num)) {
+    if (evenly_div(num)) {
       printf("The answer is: %d\n", num);
       found = 1;
     }
