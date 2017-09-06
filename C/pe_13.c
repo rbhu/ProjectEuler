@@ -67,7 +67,9 @@ void add_column(int array[101][52], int index) {
     if (!i) {
       array[100][index - i] = sum % 10;
     }
-    else { array[100][index - i] += sum % 10; }
+    else {
+      array[100][index - i] += sum % 10;
+    }
     sum /= 10;
   }
 }
