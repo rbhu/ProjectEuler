@@ -6,7 +6,7 @@ long get_product(int array[13]);
 int main () {
   //initialise and open files
   FILE *file;
-  file = fopen("./eight.txt", "r");
+  file = fopen("./pe_8.txt", "r");
   int array[13];
   long highestProduct = 0;
   char c;

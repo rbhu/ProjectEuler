@@ -27,7 +27,7 @@ void add_column(int array[101][52], int index) {
 
 int main () {
 
-  FILE *fp = fopen("thirteen.txt", "r");
+  FILE *fp = fopen("pe_13.txt", "r");
   int array[101][52];
   char c[50];
 

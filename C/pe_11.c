@@ -51,7 +51,7 @@ long getHighestProduct(long array[20][20]) {
 
 
 int main ( int argc, char argv[] ) {
-  FILE *fp = fopen("eleven.txt", "r");
+  FILE *fp = fopen("pe_11.txt", "r");
   char str[60];
   long array[20][20];
   int i = 0;
